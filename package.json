@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "mern stack development",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "pothanna",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.21",
+    "validator": "^13.9.0"
+  }
+}
